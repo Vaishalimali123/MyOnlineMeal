@@ -84,7 +84,7 @@ body {
 
 #home::before {
   content: "";
-  background: url("/image/bg.jpg") no-repeat center center/cover;
+  background: url("bg.jpg") no-repeat center center/cover;
   height: 430px;
   width: 100%;
   position: absolute;
@@ -137,18 +137,6 @@ body {
   padding: 20px 50px;
   z-index: -1;
 }
-/* #client-section::before{
-    content: "";
-     background: url(/image/bg3.jpg)no-repeat center center/cover; 
-    background-color: #f3dccb;
-    position: absolute; 
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.5;
-} */
 
 #clients {
   display: flex;
@@ -177,7 +165,7 @@ body {
   height: 544px;
   top: 0;
   left: 0;
-  background: url(/image/bg3.jpg) no-repeat center center/cover;
+  background: url(bg3.jpg) no-repeat center center/cover;
   z-index: -1;
   opacity: 0.6;
 }
